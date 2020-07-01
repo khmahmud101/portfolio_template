@@ -19,6 +19,7 @@ top banner css
   background-image: url("images/header-bg.png");
   background-repeat: no-repeat;
   height: 700px;
+  background-size:100% 100%;
 }
 
 .intro-part {
@@ -65,9 +66,10 @@ Dream Area banner css
 
 .dream-area {
   height: 875px;
-  width: 100%;
+  
   background: url("images/biography-bg.png") no-repeat;
-  background-size: cover;
+  
+  background-size:100% 100%;
 }
 
 .dream-image {
@@ -120,7 +122,8 @@ Latest work area css
 .latest-work-area {
   background-image: url("images/latest-work-bg.png");
   background-repeat: no-repeat;
-  height: 520px;
+  height: 420px;
+  background-size:100% 100%;
 }
 
 .latest-work-title {
@@ -149,7 +152,10 @@ Client say & contact area css
 .client-say-area {
   background-image: url("images/footer-bg.png");
   background-repeat: no-repeat;
-  height: 520px;
+  height: 500px;
+  background-size:100% 100%;
+  margin-top: 150px;
+  
 }
 
 .client-say-area h1 {
@@ -157,6 +163,7 @@ Client say & contact area css
   text-align: center;
   font-size: 30px;
   margin-bottom: 50px;
+  
 }
 
 .client-say-area h3 {
@@ -165,6 +172,7 @@ Client say & contact area css
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 0;
+  margin-top: 30px;
   padding-bottom: 0;
 }
 
@@ -173,9 +181,11 @@ Client say & contact area css
   text-align: center;
   font-size: 15px;
   font-weight: 500;
-  margin: 2px;
+  margin-top: 15px;
 }
-
+.client-review{
+  margin-top: 100px;
+}
 q {
   color: #007;
   text-align: center;
@@ -183,8 +193,8 @@ q {
   font-weight: 500;
   margin: 2px;
   display: block;
-  margin-top: 30px;
-  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .contact-area {
